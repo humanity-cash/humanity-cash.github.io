@@ -1,5 +1,7 @@
-const ghPages = process.env.DEPLOY_TARGET === 'gh-pages';
-
+// next.config.js
 module.exports = {
-  assetPrefix: ghPages ? '/humanity-cash.github.io/' : ''   // customize this value
-};
+  images: {
+    loader: "imgix",
+    path: "https://humanity-cash-s3.imgix.net"
+  },
+}

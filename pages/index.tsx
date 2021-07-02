@@ -85,7 +85,7 @@ export default function HumanityCash() {
 
 				<div>
 					<Image
-						src="/images/HumanityCash_LogoAsset 3@3x.png"
+						src="/images/HumanityCash_LogoAsset+3%403x.png"
 						width={1083}
 						height={295}
 						alt="Humanity Cash"
