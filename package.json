@@ -8,7 +8,8 @@
     "start": "next start",
     "prettier": "prettier --write pages/*.tsx components/*.tsx",
     "snyk-protect": "snyk protect",
-    "prepare": "yarn run snyk-protect"
+    "prepare": "yarn run snyk-protect",
+    "build-export": "bash -c 'rm -fr ../humanity-cash.github.io/{404.html,_next,index.html,posts} && yarn run build && npx next export && cp -a out/. ../humanity-cash.github.io'"
   },
   "snyk": true,
   "dependencies": {
@@ -29,6 +30,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.2",
     "snyk": "^1.653.0",
     "ts-node": "^10.0.0",
