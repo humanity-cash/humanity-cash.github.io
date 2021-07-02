@@ -1,0 +1,37 @@
+{
+  "name": "humanity-cash",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write pages/*.tsx components/*.tsx",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "@types/react": "^17.0.13",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "prettier": "^2.3.2",
+    "snyk": "^1.653.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}

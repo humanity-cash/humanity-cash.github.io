@@ -1,0 +1,74 @@
+.container {
+  padding: 0 0.5;
+  margin: 0;
+  background: var(--cga-black);
+  font-family: "Jost";
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  line-height: 1.6;
+  font-size: 18px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+}
+
+.row {  
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  width: 100%;
+  padding: 50px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--celo-canvas-dark);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: var(--celo-canvas-dark);
+  width: 100%;
+  margin-top: auto;
+  flex-shrink: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: 'EB_Garamond';
+}
+
+.footer p  {
+  font-family: 'Jost';
+  color: var(--celo-white);
+}
+
+.footer div {
+  padding: auto;
+  align-self: center;  
+}

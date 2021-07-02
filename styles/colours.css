@@ -1,0 +1,53 @@
+body {
+    
+    /* Celo Primary */
+    --celo-green:#35D07F;
+    --celo-gold:#FBCC5C;
+    --celo-dark:#2E3338;
+    --celo-white:#FFFFFF;
+  
+    /* Celo Accent */
+    --celo-accent-violet:#BF97FF;
+    --celo-accent-red:#FB7C6D;
+    --celo-accent-cyan:#73DDFF;
+    --celo-accent-blue:#3488EC;
+  
+    /* Celo Gray */
+    --celo-gray-heavy:#ABADAF;
+    --celo-gray:#DDDDDD;
+    --celo-gray-light:#EDEEEF;
+    --celo-gray-faint:#F8F9F9;
+  
+    /* Celo Background */
+    --celo-canvas-white:#FFFFFF;
+    --celo-canvas-faint-gray:#F8F9F9;
+    --celo-canvas-faint-gold:#FEF2D6;
+    --celo-canvas-dark:#2E3338;
+
+    /* Custom */
+    --keyko-light-background: #FBFAFC;
+    --keyko-dark-background: #2F3337;
+    --terminal-green: #4AF626;
+
+    /* CGA */
+    --cga-black: #000000;
+    --cga-blue: #0000AA;
+    --cga-green: #00AA00;
+    --cga-cyan: #00AAAA;
+    --cga-red: #AA0000;
+    --cga-magenta: #AA00AA;
+    --cga-brown: #AA5500;
+    --cga-light-gray: #AAAAAA;
+    --cga-dark-gray: #555555;
+    --cga-light-blue: #5555FF;
+    --cga-light-green: #55FF55;
+    --cga-light-cyan: #55FFFF;
+    --cga-light-red: #FF5555;
+    --cga-light-magenta: #FF55FF;
+    --cga-yellow: #FFFF55;
+    --cga-white: #FFFFFF;
+
+    /* Humanity Cash */
+    --hc-burnt-orange: #d98b2f;
+
+}

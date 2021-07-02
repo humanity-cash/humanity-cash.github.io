@@ -1,0 +1,31 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--celo-dark);
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--hc-burnt-orange) !important;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: local('Jost'), url(./fonts/Jost/TrueType/Jost-400-Book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'EB_Garamond';
+  src: local('EB_Garamond'), url(./fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf) format('truetype');
+}
