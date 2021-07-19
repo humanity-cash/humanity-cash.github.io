@@ -97,8 +97,7 @@ export default function HumanityCash() {
 
 				<div className="container">
 					<h2>
-						Providing a platform to scale and sustainably fund UBI programs &
-						community currencies
+						Providing a platform to scale and sustainably fund UBI programs and	community currencies
 					</h2>
 				</div>
 				<hr />
